@@ -28,8 +28,6 @@ li a:hover {
 }
 .container {
     position: relative;
-    width: 100%;
-    height: auto;
     z-index: 1;
 }
 
@@ -45,7 +43,7 @@ li a:hover {
     background-color:white;
     color:white;
     width: 24px;
-    height: 20px;
+    height: 19px;
     text-align: center;
     vertical-align: bottom;
     z-index: 2;
@@ -53,6 +51,7 @@ li a:hover {
 
 .picture:hover {
     border: 2px solid #777;
+    z-index: 5;
 }
 
 .picture.altarpatria1 {
@@ -62,63 +61,63 @@ li a:hover {
 
 .picture.blackmarket1 {
     left: 67%;
-    top: 68.1%;
+    top: 68.3%;
 }
 .picture.campodefiori1 {
     left: 40.8%;
     top: 73%;
 }
 .picture.coloseo1 {
-    left: 46.2%;
-    top: 63%;
+    left: 65%;
+    top: 92.1%;
 }
 .picture.costaguti1 {
     left: 46.2%;
-    top: 63%;
+    top: 81%;
 }
 .picture.fontanadetrevi1 {
-    left: 46.2%;
-    top: 63%;
+    left: 54.2%;
+    top: 53.6%;
 }
 .picture.gianicolo {
-    left: 46.2%;
-    top: 63%;
+    left: 26.2%;
+    top: 87.1%;
 }
 .picture.museoborghese1 {
-    left: 46.2%;
-    top: 63%;
+    left: 65%;
+    top: 5.6%;
 }
 .picture.pantheon1 {
     left: 46.2%;
     top: 63%;
 }
 .picture.piazzaminevra1 {
-    left: 46.2%;
-    top: 63%;
+    left: 48%;
+    top: 67.1%;
 }
 .picture.piazzanavona1 {
-    left: 46.2%;
-    top: 63%;
+    left: 41.7%;
+    top: 60.2%;
 }
 .picture.pontesisto1 {
-    left: 46.2%;
-    top: 63%;
+    left: 38.8%;
+    top: 85.1%;
 }
-.picture.romancolumns1 {
-    left: 46.2%;
-    top: 63%;
+.picture.romancolumn1 {
+    left: 50%;
+    top: 53%;
 }
 .picture.romanforum1 {
-    left: 46.2%;
-    top: 63%;
+    left: 58%;
+    top: 85%;
 }
 .picture.tiber {
-    left: 46.2%;
-    top: 63%;
+    left: 43%;
+    top: 88%;
 }
 .picture.vaticancity {
-    left: 46.2%;
-    top: 63%;
+    left: 20%;
+    top: 45%;
 }
 
 .audio {
@@ -135,12 +134,47 @@ li a:hover {
 
 .audio:hover {
     border: 2px solid #777;
+    z-index: 5;
 }
-
+.audio.gianicolo1 {
+    position: absolute;
+    left: 26.2%;
+    top: 89.8%;  
+}
 .audio.campodefiori1 {
     position: absolute;
-    left: 450px;
-    top: 520px;  
+    left: 40.8%;
+    top: 75.7%;  
+}
+.audio.campodefiori2 {
+    position: absolute;
+    left: 42.8%;
+    top: 75.7%;  
+}
+.audio.churchbells1 {
+    position: absolute;
+    left: 38%;
+    top: 92%;  
+}
+.audio.pantheon1 {
+    position: absolute;
+    left: 46.2%;
+    top: 66%;
+}
+.audio.scicada1 {
+    position: absolute;
+    left: 28.2%;
+    top: 89.8%;  
+}
+.audio.StPeter1 {
+    position: absolute;
+    left: 19%;
+    top: 48%;  
+}
+.audio.StPeter2 {
+    position: absolute;
+    left: 22%;
+    top: 48%;  
 }
 
 img {
@@ -233,7 +267,7 @@ img {
     </a>
   </div>
 
-  <div class="picture romancolumns1">
+  <div class="picture romancolumn1">
     <a href="http://imgur.com/a/su69c" target="_blank">
       <i class="fa fa-picture-o" style="font-size:20px;color:red;"></i>
     </a>
@@ -258,7 +292,11 @@ img {
   </div>
 
 
-
+  <div class="audio gianicolo1">
+    <a href="Aquifer.m4a" target="_blank">
+      <i class="fa fa-volume-up" style="font-size:20px;color:blue;"></i>
+    </a>
+  </div>
 
   <div class="audio campodefiori1">
     <a href="Campo%20di%20Fiori.m4a" target="_blank">
@@ -266,7 +304,41 @@ img {
     </a>
   </div>
 
+  <div class="audio campodefiori2">
+    <a href="Campo%20di%20Fiori%20night.m4a" target="_blank">
+      <i class="fa fa-volume-up" style="font-size:20px;color:blue;"></i>
+    </a>
+  </div>
 
+  <div class="audio churchbells1">
+    <a href="Church%20bells.m4a" target="_blank">
+      <i class="fa fa-volume-up" style="font-size:20px;color:blue;"></i>
+    </a>
+  </div>
+
+  <div class="audio pantheon1">
+    <a href="Pantheon.m4a" target="_blank">
+      <i class="fa fa-volume-up" style="font-size:20px;color:blue;"></i>
+    </a>
+  </div>
+
+  <div class="audio scicada1">
+    <a href="Scicada.m4a" target="_blank">
+      <i class="fa fa-volume-up" style="font-size:20px;color:blue;"></i>
+    </a>
+  </div>
+
+  <div class="audio StPeter1">
+    <a href="StPeterBasilica.m4a" target="_blank">
+      <i class="fa fa-volume-up" style="font-size:20px;color:blue;"></i>
+    </a>
+  </div>
+
+  <div class="audio StPeter2">
+    <a href="StPeterSquare.m4a" target="_blank">
+      <i class="fa fa-volume-up" style="font-size:20px;color:blue;"></i>
+    </a>
+  </div>
 
 
 </div>
